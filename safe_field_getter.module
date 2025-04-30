@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains safe_field_getter.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function safe_field_getter_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the safe_field_getter module.
+    case 'help.page.safe_field_getter':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides SafeFieldGetter class') . '</p>';
+      return $output;
+
+    default:
+  }
+}

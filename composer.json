@@ -1,0 +1,5 @@
+{
+    "name": "coolbluei/safe_field_getter",
+    "description": "Provides the Safe Field Getter module",
+    "type": "drupal-module"
+}
