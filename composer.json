@@ -1,5 +1,8 @@
 {
     "name": "coolbluei/safe_field_getter",
     "description": "Provides the Safe Field Getter module",
-    "type": "drupal-module"
+    "type": "drupal-module",
+    "require": {
+        "drupal/core": "^8 || ^9 || ^10 || ^11"
+    }
 }
